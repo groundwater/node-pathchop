@@ -1,0 +1,11 @@
+{
+  "name": "pathchop",
+  "version": "0.0.0",
+  "description": "split paths into dirname and filename",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Jacob Groundwater <groundwater@gmail.com>",
+  "license": "MIT"
+}
