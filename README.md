@@ -10,10 +10,16 @@ npm install pathchop
 
 ```javascript
 var pathchop = require('pathchop');
-var chopped  = pathchop('/a/b/c');
-console.log(chopped);
+
+pathchop('/a/b/c');
 // {
 //   file: 'c',
 //   dir: '/a/b/'
+// }
+
+pathchop('/a/b/c/');
+// {
+//   file: null,
+//   dir: '/a/b/c/'
 // }
 ```
