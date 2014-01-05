@@ -20,7 +20,6 @@ function pathchop(str) {
 
     // file and directory
     else {
-      if (str === '/a') debugger;
       out.file = str.substr(last + 1);
       out.dir  = str.substr(0, last + 1);
     }
